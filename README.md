@@ -1,4 +1,3 @@
-```markdown
 # 💼 Gerenciador de Projetos - Backend
 
 Este é o backend da aplicação *Gerenciador de Projetos*, desenvolvido com Node.js, Express e MongoDB. A API fornece uma estrutura completa para o gerenciamento de portfólios ou listas de tarefas, permitindo o cadastro, edição, listagem e remoção de projetos de forma persistente.
@@ -26,7 +25,6 @@ Este é o backend da aplicação *Gerenciador de Projetos*, desenvolvido com Nod
 ## 🧠 Estrutura do Projeto
 A organização segue o padrão MVC (Model-View-Controller) para facilitar a manutenção:
 
-```text
 backend/
 ├── controllers/
 │   └── projectController.js   # Lógica das operações (CRUD)
@@ -38,7 +36,6 @@ backend/
 ├── .gitignore                 # Arquivos ignorados pelo Git
 ├── package.json               # Gerenciamento de scripts e dependências
 └── server.js                  # Ponto de entrada e conexão com DB
-```
 
 ---
 
@@ -76,7 +73,6 @@ Base URL: `http://localhost:3000/api/projects`
 4. **Rodar o servidor:**
    ```bash
    npm start
-   ```
 
 ---
 
@@ -89,5 +85,6 @@ Base URL: `http://localhost:3000/api/projects`
 
 ## 👨‍💻 Autor
 Maria Clara Moutinho
+
 Projeto desenvolvido para fins de gerenciamento e organização de portfólio acadêmico/profissional.
 ```
