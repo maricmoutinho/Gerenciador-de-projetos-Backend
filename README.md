@@ -36,44 +36,6 @@ backend/
 ├── .gitignore                 # Arquivos ignorados pelo Git
 ├── package.json               # Gerenciamento de scripts e dependências
 └── server.js                  # Ponto de entrada e conexão com DB
-
----
-
-## 🔗 Rotas da API
-Base URL: `http://localhost:3000/api/projects`
-
-| Método | Rota | Descrição |
-|--------|------|-----------|
-| **GET** | `/` | Listar todos os projetos |
-| **POST** | `/` | Criar um novo projeto |
-| **PUT** | `/:id` | Atualizar um projeto existente |
-| **DELETE** | `/:id` | Deletar um projeto |
-
----
-
-## ⚙️ Como rodar o projeto localmente
-
-1. **Clonar o repositório:**
-   ```bash
-   git clone [https://github.com/maricmoutinho/Gerenciador-de-projetos-Backend.git](https://github.com/maricmoutinho/Gerenciador-de-projetos-Backend.git)
-   cd Gerenciador-de-projetos-Backend
-   ```
-
-2. **Instalar dependências:**
-   ```bash
-   npm install
-   ```
-
-3. **Configurar arquivo .env:**
-   Crie um arquivo chamado `.env` na raiz e adicione sua conexão:
-   ```env
-   MONGO_URI=sua_string_do_mongodb_atlas
-   ```
-
-4. **Rodar o servidor:**
-   ```bash
-   npm start
-
 ---
 
 ## 🔐 Observações Técnicas
