@@ -25,6 +25,7 @@ Este é o backend da aplicação *Gerenciador de Projetos*, desenvolvido com Nod
 ## 🧠 Estrutura do Projeto
 A organização segue o padrão MVC (Model-View-Controller) para facilitar a manutenção:
 
+```plaintext
 backend/
 ├── controllers/
 │   └── projectController.js   # Lógica das operações (CRUD)
@@ -37,7 +38,7 @@ backend/
 ├── package.json               # Gerenciamento de scripts e dependências
 └── server.js                  # Ponto de entrada e conexão com DB
 ---
-
+```
 ## 🔐 Observações Técnicas
 - **CORS**: Configurado para permitir a integração fluida com o frontend.
 - **Body Parser**: A API está preparada para receber dados no formato JSON via `express.json()`.
@@ -49,4 +50,3 @@ backend/
 Maria Clara Moutinho
 
 Projeto desenvolvido para fins de gerenciamento e organização de portfólio acadêmico/profissional.
-```
